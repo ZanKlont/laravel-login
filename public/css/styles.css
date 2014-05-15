@@ -1,0 +1,36 @@
+/*
+|	General Css
+ */
+body {
+	font-family: 'Alef', sans-serif;
+	font-size: 2em;
+	padding-top: 4em;
+}
+
+/*
+|	Forms Css
+ */
+form {
+	padding: 1em;
+}
+.btn {
+	height: 2em;
+	font-size: 1em;
+}
+.custom-input {
+	height: 2em;
+	font-size: 1em;
+	font-family: 'Inconsolata', sans-serif;
+}
+.custom-input:focus {
+	border: solid thin #98A14B;
+	box-shadow: 0 0 7px #C8D63E;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;
+}
